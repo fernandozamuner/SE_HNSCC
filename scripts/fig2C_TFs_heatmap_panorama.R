@@ -15,7 +15,7 @@ library(ComplexHeatmap)
 library(circlize)
 
 # Set working directory
-setwd("data/")
+setwd("~/data/")
 
 # Load HNSCC data
 df.tn <- as.data.frame(readRDS("fold_and_distance_77_samples_SED.rds"))

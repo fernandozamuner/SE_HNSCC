@@ -6,8 +6,8 @@ library(stringr)
 library(BSgenome.Hsapiens.UCSC.hg19)
 
 # Define input and output paths
-domain <- "/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data/SE_domains_ranges.rds"
-outputDir <- "/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data/fasta"
+domain <- "/data/SE_domains_ranges.rds"
+outputDir <- "/data/fasta"
 
 # Create the output folder if it doesn't already exist
 if (!dir.exists(outputDir)) {

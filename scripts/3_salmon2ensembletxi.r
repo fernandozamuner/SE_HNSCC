@@ -23,7 +23,7 @@ library(readr)
 #the reference is ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.pc_transcripts.fa.gz
 
 #fill in this directory, end with / -- it is the directory we start to look for quant.sf file in
-salmonDir = "/data/zappadata_p1/mconsid3/Next_Gen_Fun/RNAseq/Data/DGAYredo/"
+salmonDir = "/data/salmon_files"
 
 #look for them
 sf.files<-dir(path=salmonDir,pattern="*quant.sf",recursive=TRUE)

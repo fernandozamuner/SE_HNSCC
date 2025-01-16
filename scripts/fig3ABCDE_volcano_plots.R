@@ -1,4 +1,4 @@
-####Fernando Zamuner - Jan2024
+####Fernando Zamuner
 
 # Load required packages
 if (!requireNamespace("differential.coverage", quietly = TRUE)) {
@@ -11,7 +11,7 @@ library(plyranges)
 library(tidyr)
 library(EnhancedVolcano)
 
-setwd("/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data")
+setwd("~/data/")
 
 # Get the genes
 the_genes <- differential.coverage::get.Known.Gene.List(genome.annotation.id = "gencode19")

@@ -7,7 +7,7 @@ library(viridis)
 library(reshape2)
 
 #setdir
-setwd("/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data") 
+setwd("/data") 
 
 # Define p-value cutoffs for analysis
 pval_cutoffs <- c(0.05)
@@ -15,8 +15,8 @@ pval_cutoffs <- c(0.05)
 # Loop through each p-value cutoff
 for (pval_cutoff in pval_cutoffs) {
   # Define input and output directories
-  inDir <- "/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data"
-  outDir <- "/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data"
+  inDir <- "/data"
+  outDir <- "/data"
   
   # Read data
   df <- as.data.frame(readRDS(file.path(inDir, "fold_and_distance_77_samples_SED.rds")))

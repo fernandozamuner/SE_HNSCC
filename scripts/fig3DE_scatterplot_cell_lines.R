@@ -9,7 +9,7 @@ library(ggpubr)
 library(dplyr) 
 library(tidyverse) 
 
-setwd("/Users/fernandozamuner/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/GitHub_SE_HNSCC/data") 
+setwd("/data") 
 
 # Read data for JQ1_047 and JQ1_090 
 fold_and_distance_JQ1_047 <- readRDS("fold_and_distance_JQ1_047.rds") 

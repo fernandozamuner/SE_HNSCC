@@ -16,7 +16,7 @@ library(purrr)
 rm(list=ls())  # Removes all objects from the current environment
 
 # Set working directory
-setwd("~/Library/CloudStorage/OneDrive-JohnsHopkins/PROJECTS/Other_Projects/SE-HNSCC-Daria/Codes_Ridge_plots/hexagon_plot")
+setwd("~/data/")
 
 # Read the eRNA data
 erna <- as.data.frame(readRDS("SE_domains-deseq-res.rds"))  # Load eRNA data from RDS file and convert to data frame

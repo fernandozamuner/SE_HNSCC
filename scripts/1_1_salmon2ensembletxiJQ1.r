@@ -15,8 +15,8 @@
 library(tximport)
 library(readr)
 
-#fill in this directory, end with a
-salmonDir = " "
+# Specify the directory containing Salmon quantification files
+salmonDir <- "data/salmon_output/"
 
 sf.files<-dir(path=salmonDir,pattern="*quant.sf",recursive=TRUE)
 sf.folders<-sapply(lapply(strsplit(sf.files,split="/",fixed=TRUE),rev),"[[",2)

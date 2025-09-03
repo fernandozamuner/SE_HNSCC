@@ -13,10 +13,7 @@
 #' 7. **Prepare Data Frame**: Prepares a data frame containing distances, SE domain types, specificity, and IDs.
 #' 8. **Integrate RNA-seq Data**: Loads RNA-seq differential expression results, removes rows with NA values, and integrates these results with the SE domain data.
 #' 9. **Save Results**: Saves the final fold and distance object to an RDS file.
-#' 
-#' @author 
-#' Fernando Zamuner
-#' 
+
 ###Load libraries
 library(rtracklayer)
 library(dplyr)

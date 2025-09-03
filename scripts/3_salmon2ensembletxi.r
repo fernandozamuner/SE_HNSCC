@@ -19,7 +19,6 @@
 # Load libraries
 library(tximport)
 library(readr)
-#salmon script is done as it was done by Mike, see mike-template
 #the reference is ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.pc_transcripts.fa.gz
 
 #fill in this directory, end with / -- it is the directory we start to look for quant.sf file in

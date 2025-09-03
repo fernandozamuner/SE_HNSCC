@@ -46,7 +46,6 @@ txi$counts=txi$counts[,samples$ID] #we filter them and order them
 txi$abundance=txi$abundance[,samples$ID] #we filter them and order them
 txi$length=txi$length[,samples$ID] #we filter them and order them
 
-
 #deseq itself -- pay attention, columns in txi and samples (rows) in colData are in the same order
 samples$condition<-factor(samples$class,levels=c("N","T"))
 ddsTxi <- DESeqDataSetFromTximport(txi,colData = samples,design = ~condition)
@@ -55,4 +54,3 @@ T_to_N_DE_results<-results(DE,contrast = c("condition","T","N"))
 
 #save results
 saveRDS(T_to_N_DE_results,"RNAseq-gencode19/T_to_N_DE_results_hg19_ensembl_77_samples.rds")
-

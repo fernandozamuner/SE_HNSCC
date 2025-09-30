@@ -1,15 +1,5 @@
 # This script processes RNA-seq data using the tximport package to import transcript-level quantification data from Salmon
 # and aggregates it to the gene level. The resulting data is saved as an RDS file for further analysis.
-#
-# Steps:
-# 1. Specify the directory containing the Salmon quantification files.
-# 2. Identify all Salmon quantification files in the specified directory.
-# 3. Extract folder names corresponding to the Salmon quantification files.
-# 4. Read the first Salmon quantification file to extract gene and transcript information.
-# 5. Extract gene Ensembl IDs without version numbers.
-# 6. Create a data frame mapping transcript names to gene Ensembl IDs.
-# 7. Import the Salmon quantification files and aggregate the data to the gene level using tximport.
-# 8. Save the aggregated data as an RDS file for further analysis.
 
 # Load libraries
 library(tximport)

@@ -1,5 +1,3 @@
-##Fernando Zamuner - Ridge plots (adapted from MDK script)
-
 # Load necessary libraries
 library(ggplot2)
 library(ggridges)

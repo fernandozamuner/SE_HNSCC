@@ -1,4 +1,3 @@
-##### Fernando Zamuner
 ##### Figure 5AB: eRNA Analysis
 ##### A. Volcano plot of eRNA (SED) expression
 ##### B. Hexbin plot comparing eRNA vs mRNA expression

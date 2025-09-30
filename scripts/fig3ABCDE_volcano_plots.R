@@ -1,5 +1,3 @@
-####Fernando Zamuner
-
 # Load required packages
 if (!requireNamespace("differential.coverage", quietly = TRUE)) {
   devtools::install_github("favorov/differential.coverage")

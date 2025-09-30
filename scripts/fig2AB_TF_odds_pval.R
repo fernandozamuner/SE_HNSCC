@@ -30,7 +30,7 @@ source("ContingenciesResults.R")
 # dataset to match the TF names Ilya/Vanja used to the typical gene names for TFs
 mapping.df <- read.table("sites-vs-nosites_mapping.tsv", sep = "\t", header = T)
 # This is the newer dataset with the counts
-counts.df <- read.table("sites-vs-nosites.5_24_20.Ilya.tsv", sep = "\t", header = T) # this has correct odds ratios
+counts.df <- read.table("sites-vs-nosites.tsv", sep = "\t", header = T) # this has correct odds ratios
 # set cistrome TF name to character in dataset used for mapping
 mapping.df$TF <- as.character(mapping.df$TF)
 # add mapping to counts.df

@@ -1,16 +1,5 @@
-
 # This script performs differential expression analysis using DESeq2 on RNA-seq data.
 # The data is filtered to include only the O90 cell line treated with JQ1.
-# The results are saved as an RDS file.
-
-# Steps:
-# 1. Load RNA-seq data from a preprocessed RDS file.
-# 2. Clean and standardize column names in the RNA-seq data.
-# 3. Read sample annotations from a CSV file.
-# 4. Extract sample IDs and filter for the O90 cell line.
-# 5. Filter and order RNA-seq data to match the sample annotations.
-# 6. Create a DESeq2 dataset and perform differential expression analysis.
-# 7. Save the differential expression results to an RDS file.
 
 #load libraries
 library(DESeq2)

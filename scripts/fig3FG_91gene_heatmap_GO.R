@@ -1,4 +1,3 @@
-##### Fernando Zamuner
 ##### Figure 3FG: 91-gene core set analysis
 ##### F. Heatmap of 91-gene core set vs Tumor-SED
 ##### G. 91-gene core set: GO_BP Enrichment
